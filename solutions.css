@@ -49,3 +49,12 @@
 .ex-6-img:hover {
   filter: grayscale();
 }
+/* /Esercizio 6 */
+/* Esercizio 7 */
+.ex-7-img {
+  transition: 3s;
+}
+.ex-7-img:hover {
+  filter: sepia(0.8);
+}
+/* /Esercizio 7 */
