@@ -80,15 +80,29 @@
 /* /Esercizio 9 */
 /* Esercizio 10 */
 .ex-10-icon {
-		-webkit-animation: rotation 1s infinite linear;
+		animation: rotation 1s infinite linear;
 }
 
-@-webkit-keyframes rotation {
+@keyframes rotation {
 		from {
-				-webkit-transform: rotate(359deg);
+				transform: rotate(359deg);
 		}
 		to {
-				-webkit-transform: rotate(0deg);
+				transform: rotate(0deg);
 		}
 }
 /* /Esercizio 10 */
+/* Esercizio 11 */
+.ex-11-icon:hover {
+		animation: rotation 1.6s linear;
+}
+
+@keyframes rotation {
+		0% {
+				transform: rotate(0deg);
+		}
+		75% {
+				transform: rotate(299deg);
+		}
+}
+/* /Esercizio 11 */
