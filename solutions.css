@@ -78,3 +78,17 @@
   filter: sepia(0.8);
 }
 /* /Esercizio 9 */
+/* Esercizio 10 */
+.ex-10-icon {
+		-webkit-animation: rotation 1s infinite linear;
+}
+
+@-webkit-keyframes rotation {
+		from {
+				-webkit-transform: rotate(359deg);
+		}
+		to {
+				-webkit-transform: rotate(0deg);
+		}
+}
+/* /Esercizio 10 */
