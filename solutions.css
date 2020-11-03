@@ -80,10 +80,10 @@
 /* /Esercizio 9 */
 /* Esercizio 10 */
 .ex-10-icon {
-		animation: rotation 1s infinite linear;
+		animation: rotation10 1s infinite linear;
 }
 
-@keyframes rotation {
+@keyframes rotation10 {
 		from {
 				transform: rotate(359deg);
 		}
@@ -94,10 +94,10 @@
 /* /Esercizio 10 */
 /* Esercizio 11 */
 .ex-11-icon:hover {
-		animation: rotation 1.6s linear;
+		animation: rotation11 1.6s linear;
 }
 
-@keyframes rotation {
+@keyframes rotation11 {
 		0% {
 				transform: rotate(0deg);
 		}
@@ -106,3 +106,35 @@
 		}
 }
 /* /Esercizio 11 */
+/* /Esercizio 12 */
+.ex-12-button:hover .ex-12-top-white {
+  animation: left 2s linear;
+}
+@keyframes left {
+		0% {
+				left: 10%;
+		}
+    50% {
+				left: calc(100% - 60px );
+		}
+		100% {
+				left: 10%;
+		}
+}
+.ex-12-button:hover .ex-12-bottom-white {
+  animation: right 2s linear;
+}
+@keyframes right {
+		0% {
+				right: 20%;
+		}
+    50% {
+				right: calc(100% - 60px );
+		}
+		100% {
+				right: 20%;
+		}
+}
+/* /Esercizio 12 */
+/* top left */
+/*  */
