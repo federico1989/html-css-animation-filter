@@ -58,3 +58,12 @@
   filter: sepia(0.8);
 }
 /* /Esercizio 7 */
+/* Esercizio 8 */
+.ex-8-img {
+  transition: 3s;
+}
+.ex-8-img:hover {
+  border-radius: 5%;
+  filter: sepia(0.8);
+}
+/* /Esercizio 8 */
