@@ -19,6 +19,14 @@
   transition: 1s;
 }
 .ex-3-square:hover {
-  border-radius:100%;
+  border-radius: 100%;
 }
 /* /Esercizio 3 */
+/* Esercizio 4 */
+.ex-4-square {
+  transition: 1s;
+}
+.ex-4-square:hover {
+  opacity: 0;
+}
+/* /Esercizio 4 */
